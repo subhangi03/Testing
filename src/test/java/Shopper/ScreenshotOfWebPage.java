@@ -26,6 +26,7 @@ public class ScreenshotOfWebPage {
 		//3.DECLARE LOCATION OF FILE WHERE IT IS TO BE STORED. PASS THE PATH OF THE FILE  AS AN ARGUMENT TO THE CONSTRUCTOR 
 		File target=new File("C:\\Users\\SUBHANGI\\Desktop\\Capgemini VVAT Training\\apiTesting\\screenshot\\screenshot1.png");
 		
+		//Source and Target
 		//4.CALL THE COPY() OF FILEHANDLER CLSS AND PASS SOURCE VARIABLE AND TARGET
 		FileHandler.copy(source,target);
 	}
