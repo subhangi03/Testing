@@ -29,5 +29,6 @@ public class ScreenshotOfWebPage {
 		//Source and Target
 		//4.CALL THE COPY() OF FILEHANDLER CLSS AND PASS SOURCE VARIABLE AND TARGET
 		FileHandler.copy(source,target);
+		System.out.println("commiting in branch");
 	}
 }
