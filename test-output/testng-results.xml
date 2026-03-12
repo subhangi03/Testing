@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T11:43:51 IST" name="Default suite" finished-at="2026-03-12T11:43:59 IST" duration-ms="7943">
+  <suite started-at="2026-03-12T14:53:54 IST" name="Default suite" finished-at="2026-03-12T14:54:08 IST" duration-ms="14557">
     <groups>
     </groups>
-    <test started-at="2026-03-12T11:43:51 IST" name="Default test" finished-at="2026-03-12T11:43:59 IST" duration-ms="7943">
+    <test started-at="2026-03-12T14:53:54 IST" name="Default test" finished-at="2026-03-12T14:54:08 IST" duration-ms="14557">
       <class name="basePackage.Cart">
-        <test-method is-config="true" signature="loginTest()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T11:43:51 IST" name="loginTest" finished-at="2026-03-12T11:43:53 IST" duration-ms="2614" status="PASS">
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T14:53:54 IST" name="loginTest" finished-at="2026-03-12T14:53:57 IST" duration-ms="3060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="fetchAllProducts()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T11:43:53 IST" name="fetchAllProducts" finished-at="2026-03-12T11:43:57 IST" duration-ms="3251" status="PASS">
+        <test-method signature="fetchAllProducts()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T14:53:57 IST" name="fetchAllProducts" finished-at="2026-03-12T14:54:07 IST" duration-ms="9740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchAllProducts -->
-        <test-method signature="addProduct()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T11:43:57 IST" name="addProduct" finished-at="2026-03-12T11:43:57 IST" depends-on-methods="basePackage.Cart.fetchAllProducts" duration-ms="726" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T14:54:07 IST" name="addProduct" finished-at="2026-03-12T14:54:07 IST" depends-on-methods="basePackage.Cart.fetchAllProducts" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method signature="updateCart()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T11:43:57 IST" name="updateCart" finished-at="2026-03-12T11:43:58 IST" depends-on-methods="basePackage.Cart.addProduct" duration-ms="595" status="PASS">
+        <test-method signature="updateCart()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T14:54:07 IST" name="updateCart" finished-at="2026-03-12T14:54:08 IST" depends-on-methods="basePackage.Cart.addProduct" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateCart -->
-        <test-method signature="deleteFromCart()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T11:43:58 IST" name="deleteFromCart" finished-at="2026-03-12T11:43:59 IST" depends-on-methods="basePackage.Cart.updateCart" duration-ms="710" status="PASS">
+        <test-method signature="deleteFromCart()[pri:0, instance:basePackage.Cart@1ea9f6af]" started-at="2026-03-12T14:54:08 IST" name="deleteFromCart" finished-at="2026-03-12T14:54:08 IST" depends-on-methods="basePackage.Cart.updateCart" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFromCart -->

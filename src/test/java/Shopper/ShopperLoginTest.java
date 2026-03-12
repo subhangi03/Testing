@@ -21,6 +21,7 @@ public class ShopperLoginTest {
 		.then()
 		.assertThat().statusCode(200)
 		.log().all();
+		System.out.println("check");
 	}
 	@Test
 	public void fetchData(){
